@@ -1,0 +1,22 @@
+#container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+#container div {
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 20px;
+}
+img {
+  width:100%;
+}
+#YouTube{
+    text-decoration: none;
+    color: black;
+}
+#YouTube:hover{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: teal;
+}

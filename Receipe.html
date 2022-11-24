@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styles/navbar.css" />
+    <link rel="stylesheet" href="./Styles/auth.css" />
+  </head>
+  <body>
+    <nav id="navbar"></nav>
+    <table>
+      <form id="form">
+        <tr>
+          <td>
+            <label for="Name">Name</label>
+          </td>
+          <td>
+            <input type="text" id="name" placeholder="Name" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="UserName">UserName</label>
+          </td>
+          <td>
+            <input type="text" id="UserName" placeholder="UserName" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Email">Email</label>
+          </td>
+          <td>
+            <input type="email" id="Email" placeholder="Email" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Password">Password</label>
+          </td>
+          <td>
+            <input
+              type="password"
+              id="Password"
+              placeholder="Password length should 8"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><button onclick="Auth()">Register</button></td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>
+<script src="Receipe.js"></script>
+<script type="module" src="installNavbar.js"></script>

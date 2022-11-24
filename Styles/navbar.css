@@ -1,0 +1,20 @@
+body{
+    margin:0%;
+}
+
+#navbar{
+    display: flex;
+justify-content: space-between;
+padding:20px;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+a[href="index.html"]{
+    text-decoration: none;
+    font-size:20px;
+    color:teal;
+}
+a[href="Random.html"],a[href="Receipe.html"]{
+    text-decoration: none;
+    font-size:20px;
+    color: black;
+}
